@@ -1,0 +1,9 @@
+name: ArmorDegrade
+version: '${project.version}'
+main: me.stephenminer.armordegrade.ArmorDegrade
+api-version: 1.19
+authors: [ Meep, Stephenminer ]
+commands:
+  damage:
+  reloadPaths:
+  degrade:
