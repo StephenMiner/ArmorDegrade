@@ -2,7 +2,6 @@ package me.stephenminer.armordegrade.cosmetic;
 
 import com.mojang.datafixers.util.Pair;
 import me.stephenminer.armordegrade.ArmorDegrade;
-import net.minecraft.network.Connection;
 import net.minecraft.network.protocol.game.ClientboundSetEquipmentPacket;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.network.ServerGamePacketListenerImpl;
@@ -10,8 +9,8 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ItemStack;
 import org.bukkit.Material;
 import org.bukkit.World;
-import org.bukkit.craftbukkit.v1_20_R1.entity.CraftPlayer;
-import org.bukkit.craftbukkit.v1_20_R1.inventory.CraftItemStack;
+import org.bukkit.craftbukkit.v1_20_R2.inventory.CraftItemStack;
+import org.bukkit.craftbukkit.v1_20_R2.entity.CraftPlayer;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.PlayerInventory;
 
